@@ -8,6 +8,7 @@ Substitution ciphers are a simple replacement algorithm. In this example of a su
 This level contains an old form of cipher called a ‘Caesar Cipher’. A Caesar cipher shifts the alphabet by a set number. For example:
 
 *plain:  a b c d e f g h i j k ...*
+
 *cipher: G H I J K L M N O P Q ...*
 
 In this example, the letter ‘a’ in plaintext is replaced by a ‘G’ in the ciphertext so, for example, the plaintext ‘bad’ becomes ‘HGJ’ in ciphertext.
@@ -24,14 +25,14 @@ The *encrypt* binary will look for the keyfile in your current working directory
 
 Here is an example:
 
-*krypton2@melinda:~$ mktemp -d
-/tmp/tmp.Wf2OnCpCDQ
-krypton2@melinda:~$ cd /tmp/tmp.Wf2OnCpCDQ
-krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ ln -s /krypton/krypton2/keyfile.dat
-krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ ls
-keyfile.dat
-krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ chmod 777 .
-krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ /krypton/krypton2/encrypt /etc/issue
-krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ ls
-ciphertext  keyfile.dat*
+*krypton2@melinda:~$ mktemp -d*
+*/tmp/tmp.Wf2OnCpCDQ*
+*krypton2@melinda:~$ cd /tmp/tmp.Wf2OnCpCDQ*
+*krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ ln -s /krypton/krypton2/keyfile.dat*
+*krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ ls*
+*keyfile.dat*
+*krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ chmod 777 .*
+*krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ /krypton/krypton2/encrypt /etc/issue*
+*krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ ls*
+*ciphertext  keyfile.dat*
 
