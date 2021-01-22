@@ -8,7 +8,6 @@ Substitution ciphers are a simple replacement algorithm. In this example of a su
 This level contains an old form of cipher called a ‘Caesar Cipher’. A Caesar cipher shifts the alphabet by a set number. For example:
 
 *plain:  a b c d e f g h i j k ...*
-
 *cipher: G H I J K L M N O P Q ...*
 
 In this example, the letter ‘a’ in plaintext is replaced by a ‘G’ in the ciphertext so, for example, the plaintext ‘bad’ becomes ‘HGJ’ in ciphertext.
